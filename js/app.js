@@ -1,3 +1,4 @@
+/********************************* */
 document.addEventListener('DOMContentLoaded', function() {
     const url = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
 
@@ -46,3 +47,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetchApod(); // Llamada para obtener los datos del APOD
 });
+/**************************************************************/
+
