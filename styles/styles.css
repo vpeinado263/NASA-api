@@ -2,8 +2,9 @@
 * {
     margin: 1;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(57, 76, 144), rgb(24, 17, 17));
-    border: solid 2px rgb(13, 13, 11);
+    border: solid 2px rgb(48, 65, 123);
     border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     padding: 0;
     box-sizing: border-box;
 }

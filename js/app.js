@@ -1,5 +1,8 @@
-/********************************* */
+
+/*Evento 'DOOMContentLoaded asegura que que el codigo se ejecute despues de que el DOM este completamente cargado*/
+
 document.addEventListener('DOMContentLoaded', function() {
+
     const url = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
 
     function fetchApod() {
@@ -55,9 +58,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     imgElement.src = 'https://api.nasa.gov/assets/img/general/apod.jpg';
                 };
             })
+
+            document.getElementById('loadDataButton').addEventListener('click', function() {
+                fetchApod();
+            })
+
             .catch(error => console.error('Error:', error)); // Manejar errores en la solicitud
     }
 
     fetchApod(); // Llamada para obtener los datos del APOD
 });
-/**************************************************************/
