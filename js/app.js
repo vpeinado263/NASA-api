@@ -58,13 +58,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     imgElement.src = 'https://api.nasa.gov/assets/img/general/apod.jpg';
                 };
             })
-
-            document.getElementById('loadDataButton').addEventListener('click', function() {
-                
-            })
-
-            .catch(error => console.error('Error:', error)); // Manejar errores en la solicitud
+            
+        .catch(error => console.error('Error:', error)); // Manejar errores en la solicitud
     }
 
-    fetchApod();
+    document.getElementById('loadDataButton').addEventListener('click', function() {
+        fetchApod();
+    })
+    
 });
