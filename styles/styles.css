@@ -2,7 +2,6 @@
 * {
     margin: 1;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(57, 76, 144), rgb(24, 17, 17));
-    border: solid 2px rgb(48, 65, 123);
     border-radius: 1rem;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     padding: 0;
@@ -75,6 +74,7 @@ h1 {
 #hdurl:hover {
     background-color: #1a295f;
 }
+
 
 /* Media queries para dispositivos móviles */
 @media (max-width: 768px) {

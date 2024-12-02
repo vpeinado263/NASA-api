@@ -60,11 +60,11 @@ document.addEventListener('DOMContentLoaded', function() {
             })
 
             document.getElementById('loadDataButton').addEventListener('click', function() {
-                fetchApod();
+                
             })
 
             .catch(error => console.error('Error:', error)); // Manejar errores en la solicitud
     }
 
-    fetchApod(); // Llamada para obtener los datos del APOD
+    fetchApod();
 });
